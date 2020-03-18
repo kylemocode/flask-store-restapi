@@ -1,11 +1,11 @@
 from models.user import UserModel
 from werkzeug.security import safe_str_cmp
 
-users = [UserModel(1, "bob", "asdf")]
+# users = [UserModel("bob", "asdf")]
 
-username_mapping = {u.username: u for u in users}
+# username_mapping = {u.username: u for u in users}
 
-userid_mapping = {u.id: u for u in users}
+# userid_mapping = {u.id: u for u in users}
 
 
 def authenticate(username, password):
